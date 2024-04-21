@@ -5,7 +5,7 @@ services:
     build:
       # way to accessing Dockerfile on folder
       context: . # relative to docker-compose command running directory (.) means this folder
-      dockerfile: docker/Dockerfile # specify path to Dockerfile it starts on current folder application
+      dockerfile: Dockerfile # specify path to Dockerfile it starts on current folder application
     image: springboot
     ports:
       # port access app in container : port your app in container

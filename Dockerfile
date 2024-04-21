@@ -29,4 +29,5 @@ ADD ${JAR_FILE} /app/application.jar
 EXPOSE 8081
 
 ENTRYPOINT ["java","-jar","/app/application.jar"]
+# docker run -d -p 8080:8081 --name fullstack a627d908a5f9
 
