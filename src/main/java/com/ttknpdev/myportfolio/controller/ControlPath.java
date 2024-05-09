@@ -16,7 +16,7 @@ public class ControlPath {
         this.lineNotifyRepo = lineNotifyRepo;
     }
 
-    @GetMapping(value = "/ttknpde-v")
+    @GetMapping
     private String start() throws Exception {
         lineNotifyRepo.sendLineNotifyMessage();
         TimeUnit.MILLISECONDS.sleep(2000);
