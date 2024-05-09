@@ -29,5 +29,5 @@ ADD ${JAR_FILE} /app/application.jar
 EXPOSE 8081
 
 ENTRYPOINT ["java","-jar","/app/application.jar"]
-# docker run -d -p 8080:8081 --name fullstack a627d908a5f9
-
+# docker run -d -p 8080:8081 --name <name container (no exist)> <image id (exist)>
+# deploye to render on 21/4/24

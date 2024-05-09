@@ -1,2 +1,4 @@
 com\ttknpdev\myportfolio\MyPortfolioApplication.class
+com\ttknpdev\myportfolio\repository\LineNotifyRepo.class
 com\ttknpdev\myportfolio\controller\ControlPath.class
+com\ttknpdev\myportfolio\service\LineNotifyService.class
