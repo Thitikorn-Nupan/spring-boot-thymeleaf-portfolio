@@ -12,6 +12,7 @@ import java.util.concurrent.TimeUnit;
 public class ControlPath {
 
     private LineNotifyRepo lineNotifyRepo;
+
     @Autowired
     public ControlPath(LineNotifyRepo lineNotifyRepo) {
         this.lineNotifyRepo = lineNotifyRepo;
@@ -22,7 +23,7 @@ public class ControlPath {
         return ResponseEntity.ok("ok");
     }
 
-    @GetMapping(value = "/")
+    @GetMapping(value = "/ttknpde-v")
     private String start() throws Exception {
         lineNotifyRepo.sendLineNotifyMessage();
         TimeUnit.MILLISECONDS.sleep(2000); // delay 2s then response index html
