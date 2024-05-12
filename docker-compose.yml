@@ -1,12 +1,12 @@
-version: '3'
-services:
-  fullstack:
-    container_name: springboot
-    build:
-      # way to accessing Dockerfile on folder
-      context: . # relative to docker-compose command running directory (.) means this folder
-      dockerfile: Dockerfile # specify path to Dockerfile it starts on current folder application
-    image: springboot
-    ports:
-      # port access app in container : port your app in container
-      - '8080:8081'
+#version: '3'
+#services:
+#  fullstack:
+#    container_name: springboot
+#    build:
+#      # way to accessing Dockerfile on folder
+#      context: . # relative to docker-compose command running directory (.) means this folder
+#      dockerfile: Dockerfile # specify path to Dockerfile it starts on current folder application
+#    image: springboot
+#    ports:
+#      # port access app in container : port your app in container
+#      - '8080:8081'
