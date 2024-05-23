@@ -11029,3 +11029,29 @@ html {
 .copyright {
   background-color: #1a252f;
 }
+
+/*-------------------------------------
+7. Experience
+ -------------------------------------*/
+/*.experience {
+  padding: 50px 0 100px;
+  border-top: 1px solid #e5ebf2;
+}*/
+.experience-content {padding-top: 100px;}
+.single-timeline-box {margin-bottom: 75px;}
+
+/*experience-time*/
+.experience-time {
+  position: relative;
+}
+.experience-time h2 {
+  font-weight: 400;
+}
+.experience-time h3 {
+  font-size: 16px;
+  font-weight: 300;
+  color: #636a82;
+  margin-top: 14px;
+  text-transform: uppercase;
+}
+/*experience-time*/
