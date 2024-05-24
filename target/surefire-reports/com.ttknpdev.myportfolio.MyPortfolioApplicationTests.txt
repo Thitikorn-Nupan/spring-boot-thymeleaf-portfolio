@@ -1,4 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: com.ttknpdev.myportfolio.MyPortfolioApplicationTests
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 7.606 s - in com.ttknpdev.myportfolio.MyPortfolioApplicationTests
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 7.012 s - in com.ttknpdev.myportfolio.MyPortfolioApplicationTests
